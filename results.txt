@@ -1,0 +1,39 @@
+macbookpro@MacBook-Pro-MacBook-2 EXAMEN % git branch
+  EXAMEN1
+* main
+macbookpro@MacBook-Pro-MacBook-2 EXAMEN % git git log
+git: "git" не є командою git. Дивітья git --help.
+
+Найбільш схожою командою є
+	init
+macbookpro@MacBook-Pro-MacBook-2 EXAMEN % git log
+commit 6b2ea3810762fcedc27b0547704a3e0c28d6de2f (HEAD -> main, origin/main, origin/HEAD)
+Author: MaksymBuriachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 13:50:53 2025 +0200
+
+    Create NEWfileFORexamen
+
+commit 51a19e85083e83c0db565e56ab14028e75eeca66
+Merge: f36534f 573400f
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 13:47:23 2025 +0200
+
+    solve the conflict
+
+commit f36534f165abab120b9e69f16fa0fb9ac66fd268
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 13:43:21 2025 +0200
+
+    commit from main branch
+
+commit 573400f233a4ee489a8445efc17e37cdff1c3fd8 (EXAMEN1)
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 13:39:53 2025 +0200
+macbookpro@MacBook-Pro-MacBook-2 EXAMEN % git log --merges
+commit 51a19e85083e83c0db565e56ab14028e75eeca66
+Merge: f36534f 573400f
+Author: Maksim Buryachenko <ipadtest3347@gmail.com>
+Date:   Sat Feb 1 13:47:23 2025 +0200
+
+    solve the conflict
+macbookpro@MacBook-Pro-MacBook-2 EXAMEN % 
